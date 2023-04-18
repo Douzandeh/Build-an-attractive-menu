@@ -1,0 +1,25 @@
+ul{
+    background-color: gray;
+    padding: 5px;
+    margin: 0;
+    overflow: hidden;
+}
+li{
+    list-style-type: none;
+    float: left;
+}
+
+ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 15px;
+    text-align: center;
+    font-size: 21px;
+    display: block;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+ul li a:hover{
+    background-color: rgb(28, 196, 28);
+}
